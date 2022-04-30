@@ -1,16 +1,24 @@
-<!doctype html>
+{% extends "active_fit/base.html" %}
 
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+{% block title %}ActiveFit : An active learning platform{% endblock %}
 
-        <title>ActiveFit : An active learning platform</title>
-    </head>
+{% block content %}
 
-    <body>
-        <p>
-            Hello world!
-        </p>
-    </body>
-</html>
+    <div class="row intro-container">
+        <div class="col-md-6 mx-auto">
+            <div class="row intro-content text-center">
+                Experience is simply the name we give to our mistakes. </br>
+                Be iterative and active - learn optimally!
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-3 offset-md-3">
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Train a model</button>
+                </div>
+                <div class="col-md-3">
+                    <button type="button" class="btn btn-primary btn-lg btn-block">Start inference</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,42 @@
+html {
+    background-color: hsl(0,0%,96.5%);
+}
+
+body {
+    background-color: hsl(0,0%,96.5%) !important;
+}
+
+.header {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 50px;
+    margin-top: 1rem!important;
+}
+
+.header-acent {
+    color: #005761
+}
+
+.intro-content {
+    font-size: 50px;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-bottom: 30px
+}
+
+.intro-container {
+    margin-top: 140px;
+    color: #5a5a5a;
+}
+
+.btn-primary {
+    background-color: #0097a9 !important;
+    border-color: #005761 !important;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #005761 !important;
+}
+
+/* For Debugging */
+/* div {
+    border: 1px solid red !important;
+} */
